@@ -113,7 +113,7 @@ html {
 
 @media (max-width: 900px), (hover: none) and (pointer: coarse) {
   body {
-    padding: 0 0 20px 0;
+    padding: 0 10px 18px 10px;
   }
 
   .sidebar {
@@ -121,21 +121,41 @@ html {
     width: auto;
     height: auto;
     overflow: visible;
-    margin-bottom: 12px;
     left: auto;
-    padding: 14px 8px;
+    margin-bottom: 12px;
+    padding: 14px 6px 10px 6px;
     background-color: transparent;
   }
 
   .sidebar-inner {
-    gap: 10px;
+    gap: 8px;
+  }
+
+  .profile-image {
+    width: 34%;
+    max-width: 120px;
+  }
+
+  .name-block {
+    font-size: 1rem;
+    line-height: 1.2;
   }
 
   .sidebar-nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px 12px;
+    gap: 8px 10px;
+    margin-top: 2px;
+  }
+
+  .button {
+    width: auto;
+    max-width: none;
+    min-width: 72px;
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 3px;
   }
 
   .content {
@@ -143,31 +163,23 @@ html {
     width: auto;
   }
 
-  .profile-image {
-    width: 38%;
-    max-width: 130px;
-  }
-
-  .name-block {
-    font-size: 1.05rem;
-    line-height: 1.25;
-  }
-
-  .button {
-    width: auto;
-    max-width: none;
-    min-width: 72px;
-    padding: 6px 8px;
-    font-size: 15px;
+  h3 {
+    margin-top: 0.7em;
+    margin-bottom: 0.45em;
   }
 
   .intro-text {
-    line-height: 1.35;
+    line-height: 1.32;
+    font-size: 15px;
   }
 
-  h3 {
-    margin-top: 0.8em;
-    margin-bottom: 0.5em;
+  .section-list {
+    line-height: 1.6;
+    padding-left: 22px;
+  }
+
+  .fold-button {
+    font-size: 17px;
   }
 }
 </style></head>
